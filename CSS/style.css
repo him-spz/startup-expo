@@ -180,6 +180,10 @@ li img{
   display: flex;
 }
 
+.abo-main{
+  padding: 60px 10px;
+}
+
 .abo-img .gear-img {
   position: relative;
   left: 12px;
@@ -310,8 +314,10 @@ li img{
   place-items: center;
   /* justify-content: center;
   align-items: center; */
-  /* margin: 100px; */
+  margin: 10px 10px;
+  padding: 60px 10px;
 }
+
 
 
 @media(max-width:900px){
@@ -446,6 +452,10 @@ li img{
 }
 .tnc-cont li{
   list-style: disc;
+}
+
+.tnc-cont p{
+  margin: 15px 10px;
 }
 
 
@@ -1371,13 +1381,14 @@ a {
 /* Price Band  */
 
 #pricing{
-  padding: 40px 0px;
+  padding: 50px 0px;
 }
 
 .pri-con{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px 0px;
 }
 
 

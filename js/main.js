@@ -202,3 +202,21 @@ let curSlide = 0;
   //   });
   // });
 })(jQuery);
+
+// Scroll Reveal Animation
+ScrollReveal({
+  reset: false,
+  distance: '65px',
+  duration: 1450,
+  delay: 60
+});
+
+ScrollReveal().reveal('.hp-btn, .abo-btn', { delay: 650, origin: 'bottom', interval:200 });
+ScrollReveal().reveal('.heading, .who-img', { delay: 500, origin: 'left' });
+ScrollReveal().reveal('.para, .who-content', { delay: 600, origin: 'right' });
+ScrollReveal().reveal('.hp-content, .exh-map', { delay: 700, origin: 'bottom' });
+ScrollReveal().reveal('.comp-card, .pri-box', { delay: 600, origin: 'bottom', interval:100 });
+ScrollReveal().reveal('.content .info img, .img1 img', { delay: 600, origin: 'right' });
+ScrollReveal().reveal('.tnc-cont p, .tnc-cont ul', { delay: 600, origin: 'left', interval:200});
+
+
