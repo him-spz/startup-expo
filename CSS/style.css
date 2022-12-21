@@ -995,14 +995,27 @@ li img{
   margin: auto;
   margin-bottom: 20px;
 }
-
+@media(max-width:640px){
+  .contact div{
+    flex-direction: column;
+  }
+  .contact p{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
 @media(max-width:480px){
   .contact{
     padding: 25px 0;
+    
+    /* flex-direction: column; */
   }
   .footer{
     padding: 70px 0;
   }
+ 
 }
 
 /* .ellipse{
